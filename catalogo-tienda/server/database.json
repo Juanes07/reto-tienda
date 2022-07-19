@@ -35,7 +35,7 @@
     {
 			"id": 4,
 			"nombre": "Board ASUS ROG STRIX Z690-E Gaming WIFI",
-			"descripcion": "OG Strix Z690-E Gaming WiFi pone a los procesadores Intel® Core™ de 12a generación en el centro del escenario con una entrega de energía reforzada, refrigeración, opciones de conectividad de vanguardia y una gama de accesorios que impulsan sin esfuerzo las construcciones al máximo rendimiento. El buque insignia de esta serie es tu boleto para los juegos de siguiente nivel",
+			"descripcion": "Board ASUS ROG Strix Z690-E Gaming WiFi pone a los procesadores Intel® Core™ de 12a generación en el centro del escenario con una entrega de energía reforzada, refrigeración, opciones de conectividad de vanguardia y una gama de accesorios que impulsan sin esfuerzo las construcciones al máximo rendimiento. El buque insignia de esta serie es tu boleto para los juegos de siguiente nivel",
 			"precio": "2.480.000",
 			"cantidad": 5,
       "image": "https://clonesyperifericos.com/wp-content/uploads/2022/07/02-600x600.jpg"
@@ -192,6 +192,5 @@
 			"cantidad": 22,
       "image": "https://clonesyperifericos.com/wp-content/uploads/2022/07/02-600x600.jpg"
     }
-
   ]
 }
