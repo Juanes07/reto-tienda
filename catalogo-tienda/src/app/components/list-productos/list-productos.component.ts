@@ -5,29 +5,20 @@ import { ProductoService } from 'src/app/services/producto-service.service';
 @Component({
   selector: 'app-list-productos',
   templateUrl: './list-productos.component.html',
-  styleUrls: ['./list-productos.component.scss']
+  styleUrls: ['./list-productos.component.scss'],
 })
 export class ListProductosComponent implements OnInit {
   productos: producto[] = [];
-  detalle:boolean = false;
 
-  constructor(private service: ProductoService) { }
+  constructor(private service: ProductoService) {}
 
   ngOnInit(): void {
     this.cargarData();
   }
 
-  public cargarData(){
-    this.service.getProductos().subscribe(data=>{
-      this.productos =  data;
-    })
-
+  public cargarData() {
+    this.service.getProductos().subscribe((data) => {
+      this.productos = data;
+    });
   }
-
-
-
-  toggleProductoDetalle(){
-    this.detalle = !this.detalle;
-  }
-
 }

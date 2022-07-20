@@ -9,22 +9,28 @@ import { PrimeNgModule } from './prime-ng/prime-ng.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DetalleProductoComponent } from './components/detalle-producto/detalle-producto.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { NosotrosComponent } from './components/nosotros/nosotros.component';
+import {CdkVirtualScrollViewport} from '@angular/cdk/scrolling';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListProductosComponent,
     DetalleProductoComponent,
-    NavbarComponent
+    NavbarComponent,
+    NosotrosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     PrimeNgModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+
   ],
-  providers: [],
+  providers: [CdkVirtualScrollViewport],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

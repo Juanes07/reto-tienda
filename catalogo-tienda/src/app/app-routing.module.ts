@@ -2,7 +2,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DetalleProductoComponent } from './components/detalle-producto/detalle-producto.component';
 import { ListProductosComponent } from './components/list-productos/list-productos.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { NosotrosComponent } from './components/nosotros/nosotros.component';
+
 
 const routes: Routes = [
   {
@@ -10,6 +11,9 @@ const routes: Routes = [
   },
   {
     path:'producto/:id',component:DetalleProductoComponent
+  },
+  {
+    path:'nosotros', component: NosotrosComponent
   },
 
   {

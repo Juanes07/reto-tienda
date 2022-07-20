@@ -20,9 +20,8 @@ export class NavbarComponent implements OnInit {
       },
       { label: 'Home', icon: 'pi pi-fw pi-home', routerLink: 'productos' },
       {
-        label: 'About', routerLink:'productos'
+        label: 'About', routerLink:'nosotros'
       }
     ];
-    this.activeItem = this.items[0];
   }
 }

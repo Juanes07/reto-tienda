@@ -20,7 +20,7 @@ import { ConfirmationService } from 'primeng/api';
     DialogModule,
     RippleModule,
     PanelModule,
-    TabMenuModule,
+    TabMenuModule
   ],
   providers: [MessageService, ConfirmationService]
 })
