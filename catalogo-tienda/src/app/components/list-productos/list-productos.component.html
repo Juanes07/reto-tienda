@@ -1,0 +1,12 @@
+<div class="producto-grid">
+  <div class="box" *ngFor="let producto of productos" >
+      <img [src]="producto.image" alt="nombre producto" />
+      <h3>Nombre:</h3>
+      <p>{{ producto.nombre }}</p>
+      <p>Precio: $ {{ producto.precio }} pesos</p>
+      <p>Cantidad disponible: {{ producto.cantidad }}</p>
+      <button pButton pRipple class="p-button-info ml-2 mb-2" [routerLink]="['/producto', producto.id]" label="detalle"></button>
+      <button pButton pRipple class="ml-2 mb-2"><i class="pi pi-shopping-cart"></i></button>
+  </div>
+</div>
+<app-footer></app-footer>

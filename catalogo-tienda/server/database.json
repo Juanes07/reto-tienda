@@ -2,10 +2,195 @@
 	"productos": [
     {
 			"id": 0,
-			"nombre": "Raqueta de tenis de mesa",
-			"descripcion": "Es una raqueta para jugar tenis de mesa",
-			"precio": "50.00",
-			"cantidad": 7
+			"nombre": "Ryzen 5 5600",
+			"descripcion": "Procesador con 6 nucleos 12 hilos",
+			"precio": "850.000",
+			"cantidad": 5,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/07/02-600x600.jpg"
+    },
+    {
+			"id": 1,
+			"nombre": "Ryzen 7 5700x",
+			"descripcion": "Procesador con 8 nucleos 16 hilos",
+			"precio": "1.400.000",
+			"cantidad": 2,
+      "image": "https://static-geektopia.com/storage/t/i/899/89941/1108-amd-ryzen-7-5700x-34.webp"
+    },
+    {
+			"id": 2,
+			"nombre": "Intel I5 12600k",
+			"descripcion": "Procesador con 10 nucleos 16 hilos",
+			"precio": "1.605.000",
+			"cantidad": 10,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/02/51gEF5jd3TL.jpg"
+    },
+    {
+			"id": 3,
+			"nombre": "Intel I7 12700kf",
+			"descripcion": "Procesador con 12 nucleos 20 hilos",
+			"precio": "2.192.000",
+			"cantidad": 3,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/01/1-13.jpg"
+    },
+    {
+			"id": 4,
+			"nombre": "Board ASUS ROG STRIX Z690-E Gaming WIFI",
+			"descripcion": "Board ASUS ROG Strix Z690-E Gaming WiFi pone a los procesadores Intel® Core™ de 12a generación en el centro del escenario con una entrega de energía reforzada, refrigeración, opciones de conectividad de vanguardia y una gama de accesorios que impulsan sin esfuerzo las construcciones al máximo rendimiento. El buque insignia de esta serie es tu boleto para los juegos de siguiente nivel",
+			"precio": "2.480.000",
+			"cantidad": 5,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/07/81hQTzzTLrL._AC_SL1500_.jpg"
+    },
+    {
+			"id": 5,
+			"nombre": "ASUS Prime B660-PLUS D4",
+			"descripcion": "El ASUS PRIME B660-PLUS D4 está diseñado por expertos para dar rienda suelta a todo el potencial de los procesadores Intel Core de 12ª generación. Con un robusto diseño de potencia, soluciones de refrigeración completas y opciones de ajuste inteligentes, ASUS PRIME B660-PLUS D4 ofrece a los usuarios diarios y a los creadores de PC de bricolaje una gama de opciones de ajuste de rendimiento a través de software y hardware incluidos.",
+			"precio": "615.556",
+			"cantidad": 15,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_913269-MCO49884126219_052022-O.jpg"
+    },
+    {
+			"id": 6,
+			"nombre": "Board Asus Tuf Gaming B550m Plus Tuf Wi-fi Ii (socket Am4)",
+			"descripcion": "TUF Gaming B550M-Plus WIFI II destila elementos esenciales de la última plataforma AMD y los combina con funciones listas para jugar y durabilidad comprobada. Diseñada con componentes de grado militar, una solución de alimentación mejorada y un conjunto completo de opciones de refrigeración, esta placa base ofrece un rendimiento sólido con una estabilidad de juego inquebrantable.",
+			"precio": "755.000",
+			"cantidad": 5,
+      "image": "https://www.tauretcomputadores.com/images/products/Product_20220609100759113274756.png"
+    },
+    {
+			"id": 7,
+			"nombre": "MSI MAG B550 TOMAHAWK ",
+			"descripcion": "Compatible con procesadores AMD Ryzen de 3ª generación y futuros procesadores AMD Ryzen con actualización de BIOS",
+			"precio": "744.470",
+			"cantidad": 7,
+      "image": "https://m.media-amazon.com/images/I/910jyKG9QlL._AC_SL1500_.jpg"
+    },
+    {
+			"id": 8,
+			"nombre": "MEMORIA RAM CORSAIR VENGEANCE RGB RT 2X16 32GB DDR4 3600",
+			"descripcion": "Optimizado para maximizar el ancho de banda y ajustar los tiempos de respuesta en las placas base AMD DDR4 más recientes como complemento de su vanguardista sistema Ryzen",
+			"precio": "808.000",
+			"cantidad": 5,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_828187-MCO49796305626_042022-O.jpg"
+    },
+    {
+			"id": 9,
+			"nombre": "MEMORIA RAM CORSAIR VENGEANCE RGB SL 2X8 16GB DDR4 3600 WHITE",
+			"descripcion": "OPTIMIZADA PARA INTEL Y AMD La memoria CORSAIR VENGEANCE RGB PRO SL DDR4 ilumina el PC gracias a la iluminación dinámica RGB direccionable de forma individual, al tiempo que ofrece un rendimiento máximo en un tamaño compact",
+			"precio": "465.000",
+			"cantidad": 12,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/04/1-3.png"
+    },
+    {
+			"id": 10,
+			"nombre": "TARJETA DE VIDEO EVGA FTW3 BLACK RTX 3090 TI 24GB",
+			"descripcion": "colosalmente poderosa, brindandote un nuevo nivel de rendimiento en resolucion 8K. Esta basada en la arquitectura NVIDIA Ampere, la cual mejora increiblemente el rendimiento  en Ray-Tracing e IA gracias a RT Cores y Tensor Cores mejorados junto a nuevos multriprocesadores de streaming.",
+			"precio": "12.090.000",
+			"cantidad": 3,
+      "image": "https://images.evga.com/products/gallery/24G-P5-4981-KR_XL_1.jpg"
+    },
+    {
+			"id": 11,
+			"nombre": "TARJETA DE VIDEO GIGABYTE AMD RX 6800 XT OC 16GB",
+			"descripcion": "Desarrollado por RDNA2 Radeon™ RX 6800 XT Integrado con interfaz de memoria de 16 GB GDDR6 de 256 bits, Sistema de enfriamiento WINDFORCE 3X con ventiladores giratorios alternativos Refrigeración de pantalla Nano lubricante de grafeno Placa posterior de metal con protección de BIOS dualRGB Fusion 2.0s",
+			"precio": "5.243.000",
+			"cantidad": 10,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/04/8.png"
+    },
+    {
+			"id": 12,
+			"nombre": "TARJETA DE VIDEO MSI GAMING X RX 6600 XT 8GB",
+			"descripcion": "La última iteración de la icónica serie GAMING de MSI una vez más trae alto desempeño, eficiencia con bajo ruido y la estética que los gamers hardcore reconocen y confían. Ahora puedes disfrutar de todos tus juegos favoritos con una tarjeta gráfica poderosa que permanece fría y silenciosa. Justo como te gusta.",
+			"precio": "3.092.000",
+			"cantidad": 2,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/03/718s0pX5zGL.jpg"
+    },
+    {
+			"id": 13,
+			"nombre": "TARJETA DE VIDEO MSI RTX 3060 VENTUS 3x 12GB",
+			"descripcion": "VENTUS ofrece un diseño centrado en el rendimiento que mantiene los elementos esenciales para realizar cualquier tarea. Una disposición de triple ventilador en un diseño industrial rígido permite que esta tarjeta gráfica de aspecto elegante se adapte a cualquier construcción.",
+			"precio": "2.654.000",
+			"cantidad": 10,
+      "image": "https://m.media-amazon.com/images/I/61nCY30R4iL._AC_SX450_.jpg"
+    },
+    {
+			"id": 14,
+			"nombre": "SSD M.2 CORSAIR MP600 PRO LPX 500 GB",
+			"descripcion": "Con un formato compacto M.2 2280, el MP600 PRO LPX cabe fácilmente en la consola y supera todos los requisitos de rendimiento M.2 de la PS5* para conseguir una mejora rápida y sencilla del almacenamiento.",
+			"precio": "511.000",
+			"cantidad": 20,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/04/8c1d748621a84272ac12a29dea0386af-1.jpg"
+    },
+    {
+			"id": 15,
+			"nombre": "Disco Duro Seagate Barracuda 2 Tb 3.5 7200rpm",
+			"descripcion": "Los discos duros versátiles para todas las necesidades de su PC le brindan la excelencia líder en la industria en computación personal.",
+			"precio": "268,000",
+			"cantidad": 5,
+      "image": "https://http2.mlstatic.com/D_NQ_NP_826876-MCO48736613115_012022-O.jpg"
+    },
+    {
+			"id": 16,
+			"nombre": "FUENTE DE PODER CORSAIR CX650F RGB MODULAR 80+ BRONCE WHITE",
+			"descripcion": "Las fuentes de alimentación CX-F RGB iluminan el interior del PC con ocho LED RGB direccionables individualmente y cables totalmente modulares para facilitar su gestión.",
+			"precio": "460,000",
+			"cantidad": 7,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/05/port1.jpg"
+    },
+    {
+			"id": 17,
+			"nombre": "FUENTE DE PODER COOLER MASTER 550W 80 PLUS WHITE",
+			"descripcion": "El MWE White ofrece una forma simple y confiable de alimentar su sistema de manera segura y eficiente a un bajo costo. La clasificación de eficiencia 80 PLUS White, el diseño de circuito CC a CC + LLC, el riel único de +12 V, el PFC activo y el ventilador HDB sensible a la temperatura ofrecen una fuente de alimentación que se mantiene fiel a su propósito original. Esta fuente de alimentación se encargará de todas sus necesidades informáticas principales sin las molestias ni los desafíos de las características especiales adicionales, la sincronización de software u otras campanas y silbatos. Simplemente conéctelo a su sistema y póngase a trabajar. Para una excelente experiencia informática central, no puede equivocarse con el MWE White.",
+			"precio": "213,000",
+			"cantidad": 10,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/05/8-1.jpg"
+    },
+    {
+			"id": 18,
+			"nombre": "Fuente Evga 500W 80 Plus White",
+			"descripcion": "Cuando se trata de un presupuesto limitado, el EVGA 600 W3 80PLUS es una excelente opción a un bajo costo. La compatibilidad con 48 A en un solo riel de +12 V brinda más opciones sin tener que reducir los requisitos de sus componentes.",
+			"precio": "235,000",
+			"cantidad": 22,
+      "image": "https://i.linio.com/p/c9e723daa10c47cd92d7accd8e6a0f80-product.jpg"
+    },
+    {
+			"id": 19,
+			"nombre": "FUENTE DE PODER XPG CYBERCORE 1300w 80 Plus PLATINUM",
+			"descripcion": "La serie XPG CYBERCORE PLATINUM ejemplifica la ambición de XPG y su dedicación a la comunidad entusiasta mediante la expansión de la línea de unidades de fuentes de alimentación (PSU, por sus siglas en inglés) de excelente calidad con un nuevo nivel de productos PLATINUM.",
+			"precio": "1.593.000",
+			"cantidad": 6,
+      "image": "https://www.tauretcomputadores.com/images/products/Product_20220519110836222712374.png"
+    },
+    {
+			"id": 20,
+			"nombre": "Refrigeracion Liquida Cm Masterliquid Ml360l V2 Argb",
+			"descripcion": "MASTERLIQUID ML360L V2 ARGB Bomba de doble cámara de nueva generación Área de superficie ampliada en el radiador Nuevo SickleFlow 120 ARGB Sellado reforzado para la prevención antifugas. Soporte de CPU: Intel LGA2066, LGA2011 v3, LGA2011, LGA1151, LGA1150, LGA1156, LGA1155, LGA1366, AMD AM4, AM3+, AM3, AM2+, AM2, FM2+, FM2, FM1, Las aspas del ventilador están diseñadas para generar un gran volumen de aire que pasa a través del disipador de calor de aluminio",
+			"precio": "251,000",
+			"cantidad": 10,
+      "image": "https://apollo-virginia.akamaized.net/v1/files/vlof20xuwxl62-PE/image"
+    },
+    {
+			"id": 21,
+			"nombre": "DISIPADOR COOLER THERMALTAKE UX210 RGB",
+			"descripcion": "Compatible: Intel LGA 2066/2011/2011-3/1366/1200/1156/1155/1151/1150, AMD: AM4/AM3+/AM3/AM2+/AM2/FM2/FM",
+			"precio": "251,000",
+			"cantidad": 25,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/02/Port-4.jpg"
+    },
+    {
+			"id": 22,
+			"nombre": "Refrigeracion Liquidad Corsair Icue H100i Rgb Pro Xt",
+			"descripcion": "Soporte de Enfriamiento Intel: 1200, 1150, 1151, 1155, 1156, 1366, 2011, 2066, AMD: AM4, AM3,AM2, sTRX4, sTR4. El CORSAIR iCUE H100i RGB PRO XT es un enfriador de CPU líquido todo en uno construido para un funcionamiento silencioso y un enfriamiento extremo de la CPU, con un radiador de 240 mm, dos ventiladores CORSAIR ML120 PWM y 16 LED RGB.",
+			"precio": "470.000",
+			"cantidad": 12,
+      "image": "https://clonesyperifericos.com/wp-content/uploads/2022/06/refrigeracion-liquidad-corsair-icue-h100i-rgb-pro-xt-520x520.webp"
+    },
+    {
+			"id": 23,
+			"nombre": "Refrigeración liquida TUF Gaming LC 120 RGB",
+			"descripcion": "Soporte de Enfriamiento Intel: 1200, 1150, 1151, 1152, 1155, 1156, 1366 AMD: AM4,TUF Gaming LC RGB es una serie de enfriadores líquidos de CPU duraderos diseñados para construcciones de juegos de tamaño mediano.Cada enfriador brinda el rendimiento, las características y el diseño necesarios para ser una parte esencial de su sistema de juegos.",
+			"precio": "428,000",
+			"cantidad": 22,
+      "image": "https://m.media-amazon.com/images/I/71JIWrJu9mL._AC_SS450_.jpg"
     }
   ]
 }
