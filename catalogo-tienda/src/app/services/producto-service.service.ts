@@ -16,8 +16,8 @@ export class ProductoService {
     return this.http.get<producto[]>(direccion);
   }
 
-  getProductoPorId(id: string){
-    let direccion = this.url + 'productos/'+ id
+  getProductoPorId(id: any): Observable<producto>{
+    let direccion = this.url + 'productos/' + id;
     return this.http.get<producto>(direccion);
   }
 }

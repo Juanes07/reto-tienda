@@ -1,1 +1,9 @@
-<p>detalle-producto works!</p>
+<p-card  class="box">
+  <img [src]="producto.image" alt="nombre producto" />
+  <h3>Nombre:</h3>
+  <p>{{ producto.nombre }}</p>
+  <p>Precio: $ {{ producto.precio }} pesos</p>
+  <h2>Descripcion:</h2>
+  <p>{{producto.descripcion}}</p>
+  <p>Cantidad disponible: {{ producto.cantidad }}</p>
+</p-card>

@@ -24,10 +24,7 @@ export class ListProductosComponent implements OnInit {
 
   }
 
-  mostrarDetalle(id:string){
-    this.service.getProductoPorId(id).subscribe(data =>{
-    })
-  }
+
 
   toggleProductoDetalle(){
     this.detalle = !this.detalle;

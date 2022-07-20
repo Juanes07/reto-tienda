@@ -8,12 +8,14 @@ import { ListProductosComponent } from './components/list-productos/list-product
 import { PrimeNgModule } from './prime-ng/prime-ng.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DetalleProductoComponent } from './components/detalle-producto/detalle-producto.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListProductosComponent,
-    DetalleProductoComponent
+    DetalleProductoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
